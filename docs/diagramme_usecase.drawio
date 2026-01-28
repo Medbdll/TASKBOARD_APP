@@ -1,0 +1,221 @@
+<mxfile host="65bd71144e">
+    <diagram name="Use Case Taskboard" id="usecase-taskboard">
+        <mxGraphModel dx="3929" dy="2436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-9" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="-300" width="980" height="1230" as="geometry"/>
+                </mxCell>
+                <mxCell id="actor-utilisateur" value="Utilisateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="-440" y="230" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-connexion" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-connexion" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="210" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-deconnexion" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-deconnexion" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="400" as="sourcePoint"/>
+                        <mxPoint x="210" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-lister" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-lister-taches" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="410" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-creer" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-creer-tache" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="410" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-modifier" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-modifier-tache" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="410" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-changer-statut" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-changer-statut" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="410" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-supprimer" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-supprimer-tache" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="410" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-creer-multiple" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-creer-multiple" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="410" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-rechercher" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-rechercher" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="580" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-filtrer-priorite" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-filtrer-priorite" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="580" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-filtrer-statut" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-filtrer-statut" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="580" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-trier" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-trier-deadline" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="580" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="assoc-utilisateur-statistiques" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="actor-utilisateur" target="usecase-statistiques" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="380" as="sourcePoint"/>
+                        <mxPoint x="750" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="usecase-rechercher" value="Rechercher une tâche" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-filtrer-priorite" value="Filtrer par priorité" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="670" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-filtrer-statut" value="Filtrer par statut" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-trier-deadline" value="Trier par deadline" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-statistiques" value="Consulter les&#xa;statistiques" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-connexion" value="Se connecter" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-55" y="-120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-deconnexion" value="Se déconnecter" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-140" y="-60" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-inscription" value="S&#39;inscrire" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-220" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-lister-taches" value="Lister les tâches" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="-50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-creer-tache" value="Créer une tâche" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor-utilisateur" target="usecase-inscription">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="479" y="94" as="sourcePoint"/>
+                        <mxPoint x="940" y="50" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="usecase-modifier-tache" value="Modifier une tâche" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-changer-statut" value="Changer le statut" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-supprimer-tache" value="Supprimer une tâche" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-creer-multiple" value="Ajouter plusieurs&#xa;tâches" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-auth" value="Authentification &amp; Sécurité" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="-210" y="-180" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-gestion" value="Gestion des Tâches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="275" y="-105" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-avancees" value="Fonctionnalités Avancées" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="85" y="444" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-dashboard" value="Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="414" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usecase-connexion" target="usecase-lister-taches">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="65" y="-40" as="sourcePoint"/>
+                        <mxPoint x="560" y="-10" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="-130"/>
+                            <mxPoint x="440" y="-30"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usecase-connexion" target="usecase-modifier-tache">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="75" y="-80" as="sourcePoint"/>
+                        <mxPoint x="420" y="-10" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="-130"/>
+                            <mxPoint x="480" y="40"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usecase-connexion" target="usecase-creer-tache">
+                    <mxGeometry x="0.3188" y="4" width="160" relative="1" as="geometry">
+                        <mxPoint x="75" y="-80" as="sourcePoint"/>
+                        <mxPoint x="420" y="60" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="-140"/>
+                            <mxPoint x="490" y="110"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.966;exitY=0.628;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="usecase-connexion" target="usecase-supprimer-tache">
+                    <mxGeometry x="0.8296" y="-2" width="160" relative="1" as="geometry">
+                        <mxPoint x="74" y="-86" as="sourcePoint"/>
+                        <mxPoint x="420" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="480" y="-130"/>
+                            <mxPoint x="500" y="200"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.952;exitY=0.674;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="usecase-connexion" target="usecase-changer-statut">
+                    <mxGeometry x="0.8296" y="-2" width="160" relative="1" as="geometry">
+                        <mxPoint x="84" y="-76" as="sourcePoint"/>
+                        <mxPoint x="420" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="490" y="-120"/>
+                            <mxPoint x="520" y="270"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.874;exitY=0.772;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="usecase-connexion" target="usecase-creer-multiple">
+                    <mxGeometry x="0.8296" y="-2" width="160" relative="1" as="geometry">
+                        <mxPoint x="94" y="-66" as="sourcePoint"/>
+                        <mxPoint x="420" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="-110"/>
+                            <mxPoint x="520" y="350"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vFxaJrzEZCNKRsRQJCjL-10" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;TASKBOARD&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="12.5" y="-310" width="315" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
